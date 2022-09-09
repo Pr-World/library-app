@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.form {
+	position: absolute;
+	width: 60%;
+	height: 80%;
+	min-width: 300px;
+	min-height: 550px;
+	border-radius: 10px;
+	top: 50%;
+	left: 50%;
+	margin: 0;
+	padding: 0;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+}
+
+.form form {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.form .input {
+	background: none;
+	outline: none;
+	border: 0px;
+	width: 80%;
+	height: 5%;
+	color: white;
+	padding: 7px;
+	border-radius: 5px 5px 0 0;
+	font-size: 15px;
+	cursor: text;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+	color-scheme: dark;
+	background: #ffffff11;
+}
+
+.form .input:focus {
+	border-bottom: 1px solid white;
+}
+
+.form select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: transparent;
+	background-color: button;
+	background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+	background-repeat: no-repeat;
+	background-position-x: 100%;
+	background-position-y: 50%;
+	color: white;
+	padding-left: 5px;
+	margin-bottom: 7%;
+	width: 83%;
+	height: 10%;
+	overflow: hidden;
+}
+
+.form select option {
+	background: #222427;
+	color: rgba(255,255,255,.6);
+	border: none;
+}
+
+.form input:focus, .form select:focus, .form select {
+	outline: none;
+}
+
+.form .image {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	background: url('img.jpg') fixed center;
+	background-size: auto 100%;
+	width: 40%;
+	height: 100%;
+	border-radius: 10px 0 0 10px;
+}
+
+.form form {
+	position: absolute;
+	background: #222427;
+	width: 60%;
+	height: 100%;
+	border-radius: 0 10px 10px 0;
+	top: -50%;
+	left: 40%;
+	transform: translateY(50%);
+}
+
+body {
+	background:white linear-gradient(to right, rgba(0,0,0,.9), lightblue);
+	cursor: default;
+}
+
+.lb {
+	background: none;
+	outline: none;
+	border: none;
+	width: 80%;
+	color: white;
+	padding-bottom: 6px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	pointer-events: none;
+}
+
+.money {
+	background: #ffffff11;
+	outline: none;
+	border: none;
+	width: 80%;
+	color: white;
+	padding-bottom: 6px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	border-radius: 3px;
+	text-align: center;
+	pointer-events: none;
+}
+
+.btn {
+	background: #ffffff22;
+	outline: none;
+	border: none;
+	width: 80%;
+	height: 10%;
+	color: white;
+	padding-bottom: 6px;
+	margin-bottom: 10px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	border-radius: 3px;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+
+.btn:hover {
+	background: #ffffff44;
+	text-decoration: underline;
+	text-underline-position: under;
+	transition: 0.2s ease;
+}
