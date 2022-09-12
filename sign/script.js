@@ -98,7 +98,8 @@ check($(date), ()=>{
 
 		var c = cd>(td-mndays) && cd<(td+mxdays)
 
-		
+		$(date).attr('correct', c)
+		$(date).css({'border-bottom-color':c?'lightgreen':'red'})
 
 	})
 }, function(){
