@@ -54,11 +54,7 @@
 	background: #ffffff11;
 }
 
-.form .input:focus {
-	border-bottom: 1px solid red;
-}
-
-.input-pass {
+/*.input-pass {
 	background: none;
 	outline: none;
 	border: 0px;
@@ -71,12 +67,12 @@
 	cursor: text;
 	color-scheme: dark;
 	background: #ffffff11;
-	border-bottom: 1px solid rgba(255,255,255,.5);
+	border-bottom: 1px solid red;
 }
 
 .form .input-pass:focus {
-	border-bottom: 1px solid red;
-}
+	border-bottom: 1px solid white;
+}*/
 
 .form select {
 	-webkit-appearance: none;
@@ -93,6 +89,7 @@
 	width: 83%;
 	height: 10%;
 	overflow: hidden;
+	border-bottom-color: rgba(255,255,255,.5);
 }
 
 .form select option {
@@ -180,4 +177,26 @@ body {
 	text-decoration: underline;
 	text-underline-position: under;
 	transition: 0.2s ease;
+}
+
+.link {
+	background: none;
+	outline: none;
+	border: none;
+	width: 80%;
+	color: white;
+	padding-bottom: 6px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	text-underline-position: under;
+	text-decoration: underline;
+	transition: 0.2s ease;
+}
+
+.link:hover{
+	color: orange;
+	text-decoration: underline;
+	text-underline-position: under;
+	transition: 0.2s ease;
+	cursor: pointer;
 }

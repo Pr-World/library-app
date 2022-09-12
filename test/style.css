@@ -1,0 +1,36 @@
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.full {
+	position: absolute;
+	width: 100%; height: 100%;
+}
+
+.half-h {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+}
+
+.half-v {
+	position: absolute;
+	width: 100%;
+	height: 50%;
+}
+
+.stack {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.rmargin, .rmspace {
+	margin: 0;
+}
+
+.rmpadding, .rmspace {
+	padding: 0;
+}
